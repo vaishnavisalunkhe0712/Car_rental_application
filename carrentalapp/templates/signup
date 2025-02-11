@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Sign Up - Car Rental
+{% endblock %}
+
+{% block content %}
+<section id="signup">
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form action="{% url 'signup' %}" method="post">
+            {% csrf_token %}
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</section>
+{% endblock %}

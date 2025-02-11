@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Website</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Car Rental</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Car Rental</h2>
+            <p>Rent the car of your choice and enjoy your journey!</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>"Welcome to website– your premier destination for reliable and hassle-free transportation solutions. With a diverse fleet and dedicated customer service, we're committed to making your journey memorable and convenient. Trust us for your next adventure!"</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Wide Range of Cars</li>
+                <li>Flexible Rental Plans</li>
+                <li>24/7 Customer Support</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: info@carrental.com</p>
+            <p>Phone: +1234567890</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><strong>Email:</strong> info@yourcarrental.com</p>
+                <p><strong>Phone:</strong> +123-456-7890</p>
+                <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+            </div>
+           
+            <div class="footer-info">
+                <h3>Additional Information</h3>
+                <p>Follow us on social media:</p>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <!-- Add more social media icons as needed -->
+                </ul>
+                <p>&copy; 2024 Your Car Rental. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,112 @@
+*{
+    font-size:30 px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #313131;
+    color: #fff;
+    padding: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.hero {
+    background-image: url('/static/img/car4.jpg');
+    background-size:cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.about, .services, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-contact,
+.footer-links,
+.footer-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 20px;
+}
+
+
